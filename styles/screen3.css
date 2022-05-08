@@ -1,0 +1,237 @@
+	/* début du site */
+
+nav {
+	background-color: #15483f;
+
+}
+
+	/* modification des liens */
+
+a:hover { 
+	color: #628d9d;
+}
+
+	/* Corps global du site */
+
+body {
+	background-color: #036c66;
+	font-family: cursive;
+}
+
+h1{
+	font-style: oblique;
+	font-family: HARRYP;
+	padding-left: 2em;
+	text-decoration: underline;
+}
+
+h2{
+	font-style: oblique;
+	font-family: HARRYP;
+	text-decoration: underline dotted;
+	text-align: right;
+	padding-right: 2em;
+
+}
+
+	/* Tournoi */
+	
+.tournoi{
+	background-image: url("../images/background.jpg");
+	margin-left: 3em;
+	margin-right: 3em;
+	border-left: 2px solid #15483f;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+
+}
+
+.texte_tournoi{
+	padding: 2em;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #15483f;
+	text-shadow: 0px 0px 4px white;
+	text-align: justify;
+	border-radius: 10px;
+
+
+}
+
+	/* La coupe */
+	
+.coupe{
+	background-image: url("../images/feu.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+	
+}
+
+.texte_coupe{
+	padding: 2em;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #15483f;
+	text-shadow: 0px 0px 4px white;
+	text-align: justify;
+	border-radius:10px;
+
+}
+
+figure{
+	border: solid black;
+	padding: 3px;
+	max-width: 180px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+figcaption{
+	text-align: center;
+
+
+}
+
+.coupe_feu{
+	width: 180px;
+	height: 250px;
+
+
+}
+
+.grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 180px 5fr;
+	grid-gap: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-left: 2px solid #15483f;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+
+}
+
+	/* Epreuve 1 */
+	
+.texte_epreuve1{
+	background-image: url("../images/epreuve1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-left: 2px solid #15483f;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+
+}
+
+.dragon{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	color: #15483f;
+	text-shadow: 0px 0px 4px white;
+	text-align: justify;
+	border-radius: 10px;
+
+}
+
+.premier_p{
+	text-align:center;
+	padding: 5px;
+
+}
+
+	/* Epreuve 2*/
+	
+.texte_epreuve2{
+	background-image: url("../images/eau.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-left: 2px solid #15483f;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+
+}
+
+.deuxième_p{
+	text-align:center;
+
+}
+
+
+.lenigme{
+	color: #15483f;
+	text-shadow: 0px 0px 1px white;
+	text-align: justify;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+
+}
+
+	/* Epreuve 3*/
+
+.texte_epreuve3{
+	background-image: url("../images/labyrinthe.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 3em;
+	margin-bottom: 3em;
+	margin-right: 3em;
+	border-left: 2px solid #15483f;
+	border-right: 2px solid #15483f;
+	border-radius: 10px;
+
+}
+
+.troisième_p{
+	text-align:center;
+	padding: 5px;
+
+}
+
+
+.final{
+	color: #15483f;
+	text-shadow: 0px 0px 1px white;
+	text-align: justify;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+
+
+}
+
+	/* fleche */
+	
+.fleche{
+	width: 50px;
+	height: 50px;
+
+
+}
+
+
+	/* footer */
+	
+footer {
+	background-color: #15483f;
+
+}
+
+	/* Media queries */
+	
+@media (max-width: 1100px) {	
+	
+	.tournoi{
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+	
+}

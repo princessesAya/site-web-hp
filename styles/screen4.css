@@ -1,0 +1,199 @@
+	/* début du site */
+
+nav {
+	background-color: #4e6a37;
+
+}
+
+	/* modification des liens */
+	
+a:hover { 
+	color: #baf5b9;
+}
+
+
+	/* Corps global du site */
+
+body {
+	background-color: #3e5e3f;
+}
+
+main{
+	border: thick double #4fa367;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+
+h1{
+	text-align: center;
+	border-bottom-style: dotted;
+	color: #4fa367;
+	font-family: HARRYP;
+	letter-spacing: 3px;
+
+}
+
+
+h2{
+	color: #4fa367;
+	font-family: fantasy;
+
+}
+
+
+h3{
+	text-align: center;
+	font-family: Arial;
+	font-variant-caps: all-small-caps;
+	color: #4fa367;
+	text-shadow: 1px 1px 2px #4e6a37;
+	
+}
+
+	/* Commun aux images */
+	
+.figure img{
+	width: 195px;
+	height: 260px;
+	width: 100%; 
+
+}
+
+.figure img:hover{
+ opacity: 0.3; 
+ 
+}
+
+
+.figure{
+  width: 195px;
+  text-align: center;
+  position: relative;
+  
+}
+
+.figure .harryfigure{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	
+}
+
+.harryfigure{
+	text-align: center;
+	color: white;
+
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 195px 195px 195px 195px 195px 195px;
+	gap: 2px;
+	justify-content: center;
+
+}
+
+	/* Menu déroulant */
+
+.fiche_technique{
+	display: grid;
+	grid-template-columns: 20em 20em 20em;
+	gap: 2px;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+
+}
+
+.fiche_technique .categorie{
+	position: relative;
+	background-color: #4e6a37;
+
+}
+
+.fiche_technique .categorie ul {
+	max-height: 0;
+	overflow: hidden;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #baf5b9;
+	z-index: 1;
+	
+}
+
+.fiche_technique .categorie:hover ul {
+	max-height: 50em;
+	
+}
+
+	/* Partie Musique */
+	
+.jukebox{
+	margin-top: 2em;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-bottom:2em;
+	background-color: #4e6a37;
+	border-radius: 10px;
+
+}
+
+.premiere_p{
+	text-align: center;
+
+}
+
+.musique{
+	text-align: center;
+	padding-top: 1em;
+
+
+}
+
+.information{
+	display: grid;
+	grid-template-columns: 20em 20em 20em;
+	justify-content: center;
+	text-align: center;
+
+}
+
+
+	/* footer */
+	
+footer {
+	background-color: #4e6a37;
+	margin-top: 2em;
+
+}
+
+	/* Media queries */
+	
+@media (max-width: 1100px) {	
+	
+	.grid{
+		display: grid;
+		grid-template-columns: 195px 195px 195px
+	}
+	
+	.fiche_technique{
+		display: grid;
+		grid-template-columns: 22em 22em;
+	
+	}
+	
+	.information{
+		display:block;
+	
+	}
+	
+}

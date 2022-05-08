@@ -1,0 +1,163 @@
+	/* début du site */
+
+header img {
+	height: 100%;
+}
+
+nav {
+	background-color: #656565;
+
+}
+
+	/* modification des liens */
+	
+a:hover { 
+	color: #8e8c8d;
+}
+
+
+	/* Corps global du site */
+
+body {	
+	background-color: #575757;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 0px 0px 3px white;
+
+}
+
+.grand_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+	/* Description personnage */
+
+.grid{
+	display: grid;
+	grid-template-columns: 220px 1fr;
+	gap: 2px;
+	border: double gray;
+
+}
+
+img{
+	width: 220px;
+	height: 300px;
+
+}
+
+.texte{
+	text-align: center;
+	background-color: #656565;
+
+}
+
+
+	/* Citation */
+
+blockquote{
+	text-align: center;
+	font-style: italic;
+
+}
+
+	/* Evenement */
+
+.retour{
+	background-color: #656565;
+	border-radius: 2px;
+	border-right: 2px solid gray;
+	border-left: 2px solid gray;
+	padding: 1em;
+	margin-left:2em;
+	margin-right:2em;
+
+}
+
+.gif{
+	background-image: url("../images/rebirth.gif");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;	
+	
+}
+
+.gif2{
+	background-image: url("../images/death.gif");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;	
+	
+}
+
+.gif3{
+	background-image: url("../images/duel.gif");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;	
+	
+}
+
+.petit_grid{
+	display: grid;
+	grid-template-columns: 280px 280px 280px;
+	justify-content: center;
+	text-align: center;
+	gap: 5px;
+
+}
+
+
+	/* fleche */
+	
+.fleche{
+	width: 50px;
+	height: 50px;
+
+
+}
+
+
+	/* footer */
+	
+footer {
+	background-color: #656565;
+
+}
+
+	/* Media queries */
+	
+@media (max-width: 1100px) {	
+	
+	.grand_grid{
+		display: block;
+	}	
+	
+	.grid{
+		display: block;
+	
+	}
+	
+	.mais{
+		display: none;
+	
+	}
+	
+	.figure{
+		display: none;
+	
+	}
+}

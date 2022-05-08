@@ -1,0 +1,60 @@
+	/* police d'écriture */
+	
+@font-face {
+	font-family: "HARRYP";
+	src: url("../images/HARRYP.ttf") format("truetype");
+	font-style: normal;
+	
+}
+
+	/* début du site */
+	
+header img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav{
+	text-align: center;
+	font-family:"HARRYP";
+	font-size: 2em;
+	padding: 0.15em; 
+	margin-top: 1em;
+	margin-bottom: 2em;
+	
+}
+
+nav img {
+	width: 20px;
+	height: 20px;
+}
+
+
+	/* modification des liens */
+	
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover { 
+	text-decoration: none;
+	
+}
+
+	/* Corps global du site */
+
+body{	
+	margin: 0;
+	
+}
+
+	/* footer */
+	
+footer {
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 100%;
+}

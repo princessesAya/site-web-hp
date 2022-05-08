@@ -1,0 +1,488 @@
+	/* début du site */
+
+nav {
+	background-color: #6b5637;
+
+}
+
+	/* modification des liens */
+	
+a:hover { 
+	color: white;
+}
+
+
+	/* Corps global du site */
+
+body {
+	background-color: #c4b4a1;
+}
+
+article {
+	background-color: #64543e;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-left: 0.2em solid #26231a;
+	border-right: 0.2em solid #26231a;
+	border-radius: 5px;
+	
+	
+}
+
+h1 {
+	border-bottom: dashed #26231a;
+	text-align: center;
+	font-family: Cursive;
+
+}
+
+.en_tete{
+	background-color: #c4b4a1;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom:1em;
+	margin-right: 1em;
+	margin-left: 1em;
+
+}
+
+	/* Elements communs des tableaux 1 et 2 */
+
+.grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 150px 1fr;
+	gap: 20px 5px;
+
+}
+
+blockquote {
+	text-align: right;
+
+}
+
+	/* Premier tableau */
+	
+.image {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	margin-left: 2px;
+	padding-top: 1em;
+	
+}
+
+.texte1 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+.harryfigure{
+	text-align: center;
+
+}
+
+	/* second tableau */
+	
+.image2{
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding-left: 2px;
+	padding-top: 1em;
+
+}
+
+.texte2 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+
+	/* troisième tableau */
+	
+.image4{
+	background-image: url("../images/ron.jpg");
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding-left: 2px;
+
+}
+
+.texte4 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* quatrième tableau */
+	
+.image5{
+	background-image: url("../images/cedric.jpg");
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding-left: 2px;
+
+}
+
+.texte5 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* cinquième tableau */
+	
+.image6{
+	background-image: url("../images/viktor.png");
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding-left: 2px;
+
+}
+
+.texte6 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+	/* sixième tableau */
+	
+.image7{
+	background-image: url("../images/fleur.jpg");
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding-left: 2px;
+
+}
+
+.texte7 {
+	background-color: #c4b4a1;
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+												/* Deuxième partie du code */
+												
+	/* Généralité */
+		
+h3 {
+	border-bottom: solid #26231a;
+	text-align: center;
+
+}
+
+
+.grid_2{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 280px 46.5em 280px;
+
+}
+											
+	/* Premier tableau */
+	
+.image_2 {
+	background-image: url("../images/harmione.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_2_1{
+	background-image: url("../images/harmione2.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_2 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* Deuxième tableau */
+	
+.image_3 {
+	background-image: url("../images/haron.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_3_1{
+	background-image: url("../images/haron2.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_3 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* Troisième tableau */
+	
+.image_4 {
+	background-image: url("../images/hafleur.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_4_1{
+	background-image: url("../images/fleur.gif");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_4 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* Quatrième tableau */
+	
+.image_5 {
+	background-image: url("../images/hadric.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_5_1{
+	background-image: url("../images/hadric2.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_5 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+
+	/* Cinquième tableau */
+	
+.image_6 {
+	background-image: url("../images/heron.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_6_1{
+	background-image: url("../images/heron2.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_6 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+
+	/* Sixième tableau */
+	
+.image_7 {
+	background-image: url("../images/hertor.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+	
+}
+
+.image_7_1{
+	background-image: url("../images/hertor2.jpg");
+	background-size: 280px 155px;
+	width: 280px;
+	height: 155px;
+	margin: auto;
+	margin-left: 2px;
+	border-radius: 15px;
+
+}
+
+.texte1_7 {
+	text-align: justify;
+	padding-left: 1em;
+	padding-right: 1em; 
+
+}
+
+	/* fleche */
+	
+.fleche{
+	width: 50px;
+	height: 50px;
+
+
+}
+
+	/* footer */
+	
+footer {
+	background-color: #64543e;
+
+}
+
+	/* Media queries */
+	
+@media (max-width: 1100px) {	
+	
+	.grid_2{
+		display: block;
+	}	
+	
+	.image_2{
+		margin: auto;
+	
+	}
+	
+	.image_2_1{
+		margin: auto;
+	
+	}
+	
+	.image_3{
+		margin: auto;
+	
+	}
+	
+	.image_3_1{
+		margin: auto;
+	
+	}
+	
+	.image_4{
+		margin: auto;
+	
+	}
+	
+	.image_4_1{
+		margin: auto;
+	
+	}
+	
+	.image_5{
+		margin: auto;
+	
+	}
+	
+	.image_5_1{
+		margin: auto;
+	
+	}
+	
+	.image_6{
+		margin: auto;
+	
+	}
+	
+	.image_6_1{
+		margin: auto;
+	
+	}
+	
+	.image_7{
+		margin: auto;
+	
+	}
+	
+	.image_7_1{
+		margin: auto;
+	
+	}
+	
+}

@@ -1,0 +1,171 @@
+	/* début du site */
+
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: #033d47;
+
+}
+	/* Modification des liens */
+
+a:hover {
+	color: #00262f;
+}
+
+
+	/* Corps global du site */
+
+body {
+	background-color: #2e5e74;
+}
+
+main {
+	background-color: #458390;
+	margin-left: 10em;
+	margin-right: 10em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-left: 0.2em solid #033d47;
+	border-right: 0.2em solid #033d47;
+	border-radius: 5px;
+	
+	
+}
+
+.section{
+	background-color: #1c7d86;
+}
+
+	/* Modification des titres */
+	
+h1{
+	background-color: #99bfd4;
+	text-align: center;
+	font-family:"HARRYP";
+	font-size: 1.5em;
+	overflow:hidden;
+	word-wrap: break-word;
+}
+
+
+	/* Elements communs des tableaux 1 et 2 */
+
+.grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 500px 1fr;
+	gap: 20px 5px;
+
+}
+
+blockquote {
+	text-align: right;
+
+}
+
+	/* Premier tableau */
+	
+.image {
+	background-image: url("../images/harry.gif");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 282px;
+	margin: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.texte1 {
+	background-color: #1c7d86;
+	text-align: justify;
+	width: calc(100%-10px);
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow:hidden;
+}
+
+	/* second tableau */
+	
+.image2{
+	width: 560px;
+	height: 315px;
+	margin: auto;
+	padding-left: 2px;
+
+}
+
+.texte2 {
+	background-color: #1c7d86;
+	text-align: justify;
+	padding-left: 4em;
+	padding-right: 1em; 
+
+}
+
+	/* troisième tableau */
+
+.grid2{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 245px;
+	gap: 20px 5px;
+
+}
+
+.image3{
+	background-image: url("../images/harry2.gif");
+	width: 245px;
+	height: 245px;
+	margin: auto;
+	order: 2;
+
+}
+
+
+.texte3 {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: justify;
+	
+
+}
+
+.w3c {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+	/* footer */
+	
+footer {
+	background-color: #1c7d86;
+
+}
+
+
+	/* Media queries */
+	
+@media (max-width: 1100px) {	
+	
+	.image {
+		width: 100%;
+	}
+
+	.texte1{
+		word-wrap: break-word;	
+		max-width: 100%;
+
+	}
+		
+	.texte2{
+		padding:1em;
+	}
+	
+	.grid{
+		display: block;
+	}	
+}
